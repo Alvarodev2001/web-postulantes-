@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postula a un Trabajo</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    
+    <header>
+        <a href="#" class="logo">
+            <img src="./img/1.png" alt="">
+        </a>
+        <nav>
+            <ul class="nav">
+                <li><a href="#Trabajos">Inicio</a></li>
+                <li><a href="#Postula">Postula</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Section -->
+    <section class="Trabajos" id="Trabajos">
+        <div class="Trabajos-left">
+            <strong>¡Únete a Nuestro Equipo!</strong>
+            <h2>Encuentra las mejores oportunidades de trabajo aquí</h2>
+        </div>
+        <div class="Trabajos-right">
+            <div class="Trabajos-img">
+                <img src="./img/2.png" alt="">
+            </div>
+            <h4>Desarrollador Web</h4>
+            <h6>10 Vacantates</h6>
+            <p>Buscamos un desarrollador con experiencia en HTML, CSS, JavaScript y frameworks como React o Angular. 
+                Será responsable de crear y mantener sitios web atractivos, responsivos y funcionales.</p>
+
+            <div class="Trabajos-img">
+                <img src="./img/3.png" alt="">
+            </div>
+            <h4>Desarrollador Movil</h4>
+            <h6>5 Vacantates</h6>
+            <p>Estamos en busca de un desarrollador móvil con conocimientos en aplicaciones nativas (Android/iOS) o 
+                desarrollo multiplataforma (Flutter, React Native). Deberá asegurar la funcionalidad y el rendimiento en diversos dispositivos.</p>
+
+            <div class="Trabajos-img">
+                <img src="./img/4.png" alt="">
+            </div>
+            <h4>Desarrollador Escritorio</h4>
+            <h6>3 Vacantates</h6>
+            <p>Buscamos un desarrollador de software de escritorio con habilidades en C#, Java o Python. 
+                Será responsable de crear aplicaciones robustas que se adapten a las necesidades de nuestros clientes.</p>
+        </div>
+    </section>
+    <!-- Formulario -->
+    <section id="Postula">
+            <div class="Contenedor">
+                <h1 class="titulo">!POSTULA!</h1>
+                <form id="form-validacion" novalidate>
+                    <div class="form-group">
+                        <span>Nombre</span>
+                        <input type="text" placeholder="Ingrese su nombre" required>
+                        <small>Por favor ingrese Nombre</small>
+                    </div>
+
+                    <div class="form-group">
+                        <span>Apellido</span>
+                        <input type="text" placeholder="Ingrese su Apellido" required>
+                        <small>Por favor ingrese Apellido</small>
+                    </div>
+
+                    <div class="form-group">
+                        <span>Email</span>
+                        <input type="email" placeholder="Ingrese su Email" required>
+                        <small>Por favor ingrese Email</small>
+                    </div>
+
+                    <div class="form-group">
+                        <span>Telefono</span>
+                        <input type="number" placeholder="Ingrese su Telefono" required>
+                        <small>Por favor ingrese Telefono</small>
+                    </div>
+                    <div class="form-group">
+                        <span>Subir CV</span>
+                        <input type="file" accept="image/*,.pdf" / required>
+                        <small>Por favor Suba su CV</small>
+                    </div>
+                    <div class="button">
+                        <input type="submit" value="Registrarse">
+                    </div>
+                </form>
+            </div>
+    </section>
+    <footer>
+        <p>Todos los derechos reservados - 2024</p>
+    </footer>
+    <script src="java.js"></script>
+</body>
+</html>
